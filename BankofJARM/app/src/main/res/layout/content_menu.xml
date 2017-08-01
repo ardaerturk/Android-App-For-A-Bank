@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <TextView
+    android:id="@+id/menu_customer_welcome"
+    android:textStyle="bold"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/menu_text_padding"
+    android:gravity="center_horizontal"
+    android:text="@string/menu_welcome_text"
+    android:textSize="@dimen/menu_welcome_text_size" />
+
+  <TextView
+    android:id="@+id/menu_customer_welcome_subheading"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/menu_text_padding"
+    android:gravity="center_horizontal"
+    android:text="@string/menu_welcome_text_subheading"
+    android:textSize="@dimen/menu_welcome_text_size" />
+
+  <ListView
+    android:id="@+id/menu_items"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/menu_item_height"
+    android:background="@color/menuPrimary">
+
+    <!-- Id -->
+    <TextView
+        android:id="@+id/account_id"
+        android:layout_width="@dimen/menu_icon_size"
+        android:layout_height="@dimen/menu_icon_size"
+        android:layout_marginTop="@dimen/menu_icon_padding"
+        android:layout_marginLeft="@dimen/menu_icon_padding"
+        android:layout_marginRight="@dimen/menu_icon_padding"
+        android:layout_alignParentLeft="true" />
+
+    <!-- Text -->
+    <TextView
+        android:id="@+id/account_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/menu_text_padding"
+        android:layout_toRightOf="@+id/account_id"
+        android:textSize="@dimen/menu_text_size" />
+
+
+</RelativeLayout>

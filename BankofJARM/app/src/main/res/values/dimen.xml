@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="activity_padding">20dp</dimen>
+  <dimen name="main_login_input_padding">30dp</dimen>
+
+  <!-- Menu dimen -->
+  <dimen name="menu_text_size">24dp</dimen>
+  <dimen name="menu_item_height">64dp</dimen>
+  <dimen name="menu_icon_padding">8dp</dimen>
+  <dimen name="menu_text_padding">16dp</dimen>
+  <dimen name="menu_padding">8dp</dimen>
+  <dimen name="menu_icon_size">40dp</dimen>
+  <dimen name="menu_welcome_text_size">32dp</dimen>
+  <dimen name="customer_view_accounts">20dp</dimen>
+
+  <!-- Admin View Users -->
+
+  <!-- Admin Create Users Dimen -->
+  <dimen name="name_input_padding">50dp</dimen>
+
+
+</resources>

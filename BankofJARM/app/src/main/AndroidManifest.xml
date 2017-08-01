@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.b07.bankofjarm">
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bank_of_jarm_logo_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bank_of_jarm_logo_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".login.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menu.CustomerMenuActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".menu.TellerMenuActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".menu.AdminMenuActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".menu.CustomerViewAccountsActivity" />
+        <activity android:name=".menu.AdminViewUsersActivity" />
+        <activity android:name=".menu.AdminCreateUserActivity" />
+    </application>
+
+</manifest>

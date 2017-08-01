@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_name_input"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="35dp"
+        android:layout_above="@+id/userPassword"
+        android:layout_alignStart="@+id/userPassword" />
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/hint_password"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/userAddress" />
+
+    <EditText
+        android:id="@+id/userAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_address_input"
+        android:inputType="textPersonName"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/userPassword"
+        android:layout_alignStart="@+id/userAge" />
+
+    <EditText
+        android:id="@+id/userAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_age"
+        android:inputType="number"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/userAddress"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:id="@+id/adminOrTellerSpinner"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:prompt="@string/user_create_prompt"
+        android:visibility="visible"
+        android:layout_marginBottom="27dp"
+        android:layout_above="@+id/userName"
+        android:layout_alignStart="@+id/userName" />
+
+    <Button
+        android:id="@+id/createUserButton"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:text="@string/create_user_button"
+        android:layout_below="@+id/userAge"
+        android:layout_alignEnd="@+id/userAddress"
+        android:layout_marginTop="15dp" />
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="@dimen/activity_padding"
+  android:orientation="vertical">
+
+  <ImageView
+    android:id="@+id/login_logo"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:src="@mipmap/bank_of_jarm_logo" />
+
+  <android.support.design.widget.TextInputLayout
+    android:id="@+id/main_login_input_id_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/hint_id">
+
+    <EditText
+      android:id="@+id/main_login_input_id"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingBottom="@dimen/main_login_input_padding"
+      android:hint="@string/hint_id"
+      android:inputType="number" />
+
+  </android.support.design.widget.TextInputLayout>
+
+  <android.support.design.widget.TextInputLayout
+    android:id="@+id/main_login_input_password_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/main_login_input_padding"
+    android:hint="@string/hint_password">
+
+    <EditText
+      android:id="@+id/main_login_input_password"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/hint_password"
+      android:inputType="textPassword" />
+  </android.support.design.widget.TextInputLayout>
+
+  <CheckBox
+    android:id="@+id/remember_me"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/main_login_input_padding"
+    android:text="@string/remember_me" />
+
+  <Button
+    android:id="@+id/main_login_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:onClick="login"
+    android:text="@string/login_prompt" />
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="387dp"
+        android:layout_height="126dp"
+        android:text="@string/admin_view_users"
+        android:padding="@dimen/menu_welcome_text_size"
+        android:textSize= "@dimen/customer_view_accounts"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="49dp" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">Bank of JARM</string>
+    <!-- Login strings -->
+    <string name="login_prompt">Login</string>
+    <string name="logout_prompt">Logout</string>
+    <string name="remember_me">Remember me!</string>
+
+    <string name="invalid_login_toast">Incorrect id/password!</string>
+
+    <!-- ATM strings -->
+    <string name="menu_customer_view_accounts">View your accounts</string>
+    <string name="menu_customer_deposit">Make a deposit</string>
+    <string name="menu_customer_check_balance">Check an account balance</string>
+    <string name="menu_customer_make_withdrawal">Make a withdrawal</string>
+
+    <!-- Teller strings -->
+    <string name="menu_teller_authenticate_customer">Authenticate a customer</string>
+    <string name="menu_teller_create_user">Register a new customer</string>
+    <string name="menu_teller_view_customer_accounts">View your customer\'s accounts</string>
+    <string name="menu_teller_add_account_interest">Add interest to an account</string>
+    <string name="menu_teller_update_user_info">Update your customer\'s information</string>
+    <string name="menu_teller_close_customer_session">Close current customer session</string>
+    <string name="menu_teller_send_message">Send message to customer</string>
+    <string name="menu_teller_view_customer_messages">View customer\'s messages</string>
+    <string name="menu_teller_link_user_account">Link account to customer</string>
+    <string name="menu_teller_create_account">Create new customer account</string>
+
+    <!-- Admin strings -->
+    <string name="menu_admin_promote_teller">Promote a teller</string>
+    <string name="menu_admin_create_user">Register a new user</string>
+    <string name="menu_admin_view_users">View all users</string>
+    <string name="menu_admin_view_customer_balance">View a customer\'s total balance</string>
+    <string name="menu_admin_view_bank_balance">View bank\'s total balance</string>
+    <string name="menu_admin_view_users_messages">View a user\'s messages</string>
+    <string name="menu_admin_send_message">Send message to user</string>
+    <string name="menu_admin_serialize">Serialize database</string>
+    <string name="menu_admin_deserialize">Deserialize database</string>
+
+    <!-- Common strings -->
+    <string name="menu_view_messages">View my messages</string>
+    <string name="menu_welcome_text">Welcome,</string>
+    <string name="menu_welcome_text_subheading">How can we help?</string>
+
+    <!-- Extra strings for intents -->
+    <string name="EXTRA_USER_ID">userId</string>
+    <string name="EXTRA_USER_PW">userPw</string>
+
+    <!-- Error strings -->
+    <string name="error_no_accounts">You do not have any account!</string>
+    <string name="error_message">Something went wrong!</string>
+    <string name="error_unreachable_account">You do not have access to this account.</string>
+    <string name="error_operation_unsuccessful">Operation unsuccessful.</string>
+    <string name="error_incomplete_inputs">Please fill in all fields!</string>
+    <string name="error_no_messages">Your inbox is empty!</string>
+
+    <!-- Dialog strings -->
+    <string name="dialog_choose_account_title">Checking balance...</string>
+    <string name="dialog_choose_account_message">Please enter an account id:</string>
+
+    <string name="dialog_view_account">Here are your accounts... </string>
+    <string name="dialog_account_id">Account Id: </string>
+    <string name="dialog_account_type">Account Type: </string>
+    <string name="dialog_account_name">Account name: </string>
+    <string name="dialog_account_balance">Account balance: </string>
+
+
+    <string name="dialog_balance_title">Balance for account </string>
+    <string name="dialog_balance_message">This account has a balance of $</string>
+
+    <string name="dialog_make_withdrawal_title">Making a withdrawal...</string>
+    <string name="dialog_make_withdrawal_message">Please enter an account id and amount to withdraw:</string>
+    <string name="dialog_make_withdrawal_success1">Successfully withdrew $</string>
+    <string name="dialog_make_withdrawal_success2">from account</string>
+
+    <string name="dialog_make_deposit_title">Making a deposit...</string>
+    <string name="dialog_make_deposit_message">Please enter an account id and amount to deposit:</string>
+    <string name="dialog_make_deposit_success1">Successfully deposited $</string>
+    <string name="dialog_make_deposit_success2">into account</string>
+
+    <string name="dialog_view_messages_title">Viewing messages...</string>
+    <string name="dialog_view_messages_message">Please enter the id of the message you want to view:</string>
+    <string name="dialog_view_messages_success_title">Message:</string>
+
+    <string name="dialog_send_message_title">Sending message...</string>
+    <string name="dialog_send_message_message">Please enter the user id and a message:</string>
+    <string name="dialog_send_message_success">Message sent.</string>
+
+    <string name="dialog_add_interest_title">Adding interest...</string>
+    <string name="dialog_add_interest_message">Please enter the id of the account you want to add interest to:</string>
+    <string name="dialog_add_interest_success">Successfully added interest.</string>
+
+    <string name="dialog_authenticate_customer_title">Authenticating customer...</string>
+    <string name="dialog_authenticate_customer_message">Please login the customer you wish to authenticate:</string>
+    <string name="dialog_authenticate_customer_fail">User is not a customer!</string>
+
+    <string name="dialog_link_account_user_title">Linking account...</string>
+    <string name="dialog_link_account_user_message">Please enter the id of the user and the id of the account you wish to link:</string>
+    <string name="dialog_link_account_user_success">Successfully linked account.</string>
+
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_send">Send</string>
+
+    <!-- Hint strings -->
+    <string name="hint_amount_input">Amount in $</string>
+    <string name="hint_id">ID Number</string>
+    <string name="hint_user_id">User ID Number</string>
+    <string name="hint_account_id">Account ID Number</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_message">Enter a message...</string>
+
+    <!-- View accouts for customer menu strings -->
+    <string name="menu_accounts">Here are your accounts;</string>
+
+    <!-- View customers for admin menu strings -->
+    <string name="admin_view_users">Here are the users ...</string>
+
+    <!-- Create a new user spinner options -->
+    <string name="user_create_prompt">Choose a user type</string>
+
+    <string-array name="admin_or_teller_spinner">
+        <item>Teller</item>
+        <item>Admin</item>
+    </string-array>
+
+    <string name="hint_name_input">Name</string>
+    <string name="hint_address_input">Address</string>
+    <string name="hint_age">Age</string>
+
+    <string name="create_user_button">Create</string>
+
+</resources>
